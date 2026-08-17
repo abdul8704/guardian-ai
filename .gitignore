@@ -1,14 +1,18 @@
-# Generated output files & videos
+# Generated video outputs & uploads (exceed GitHub 1GB LFS free limit)
 output/
 uploads/
-
-# Model weights & run logs
-*.pt
 runs/
 runs_det/
 runs_obb/
 
-# Python cache
+# Large model weights (can be downloaded separately)
+*.pt
+yolo26n.pt
+yolov8n-pose.pt
+yolov8s-obb.pt
+yolov8s.pt
+
+# Python cache & temporary build files
 __pycache__/
 guardian/__pycache__/
 tools/__pycache__/
