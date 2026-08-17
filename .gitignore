@@ -1,0 +1,21 @@
+# Generated output files & videos
+output/
+uploads/
+
+# Model weights & run logs
+*.pt
+runs/
+runs_det/
+runs_obb/
+
+# Python cache
+__pycache__/
+guardian/__pycache__/
+tools/__pycache__/
+.pytest_cache/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
